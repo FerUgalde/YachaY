@@ -1,0 +1,82 @@
+[
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.5141438245773315
+    }
+  },
+  {
+    "text": "cee you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.39513498544692993
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.4550324082374573
+    }
+  },
+  {
+    "text": "see you around",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.43788498640060425
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.40279820561408997
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.38650116324424744
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5017102956771851
+    }
+  },
+  {
+    "text": "bye bye",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.48557111620903015
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5384413003921509
+    }
+  },
+  {
+    "text": "inscribirme",
+    "intent": "informar_procesos",
+    "intent_prediction": {
+      "name": "inscripcion",
+      "confidence": 0.29672861099243164
+    }
+  }
+]

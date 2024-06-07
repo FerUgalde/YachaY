@@ -1,0 +1,118 @@
+{
+  "udg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "inscripcion": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "uc": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "Leanne Graham": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "uncp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "despedida": {
+    "precision": 0.7142857142857143,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.689655172413793,
+    "support": 15,
+    "confused_with": {
+      "goodbye": 5
+    }
+  },
+  "Ervin Howell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "unsam": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 0.5833333333333334,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.6086956521739131,
+    "support": 11,
+    "confused_with": {
+      "despedida": 4
+    }
+  },
+  "tipos_cursos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "informar_procesos": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "inscripcion": 1
+    }
+  },
+  "accuracy": 0.9152542372881356,
+  "macro avg": {
+    "precision": 0.9395604395604397,
+    "recall": 0.9393939393939393,
+    "f1-score": 0.9390195012383918,
+    "support": 118
+  },
+  "weighted avg": {
+    "precision": 0.9170702179176755,
+    "recall": 0.9152542372881356,
+    "f1-score": 0.9155797403961458,
+    "support": 118
+  },
+  "micro avg": {
+    "precision": 0.9152542372881356,
+    "recall": 0.9152542372881356,
+    "f1-score": 0.9152542372881356,
+    "support": 118
+  }
+}
