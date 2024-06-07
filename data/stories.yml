@@ -1,0 +1,98 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: despedida_msj
+    steps:
+      - intent: despedida
+      - action: utter_despedida
+
+  - story: info_proceso
+    steps:
+      - intent: informar_procesos
+      - action: utter_informacion
+      - action: action_get_universities_from_api
+
+  - story: proceso_uabc
+    steps:
+      - intent: uabc
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_uc
+    steps:
+      - intent: uc
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_udg
+    steps:
+      - intent: udg
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_uned
+    steps:
+      - intent: uned
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_unmp
+    steps:
+      - intent: unmp
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_unsam
+    steps:
+      - intent: unsam
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_uncp
+    steps:
+      - intent: uncp
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_ul
+    steps:
+      - intent: ul
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  - story: proceso_unl
+    steps:
+      - intent: unl
+      - action: utter_cursos
+      - action: action_get_courses_from_api
+
+  # - story: proceso_test
+  #   steps:
+  #     - intent: Leanne Graham
+  #     - action: utter_test
+  #     - action: action_get_courses_from_api
+
+  # - story: proceso_test2
+  #   steps:
+  #     - intent: Ervin Howell
+  #     - action: utter_test
+  #     - action: action_get_courses_from_api
+
+  - story: curso_test
+    steps:
+      - intent: aped_curso
+      - action: utter_cursos_pasos
+      - action: action_get_steps_from_api
+      - action: utter_continuacion
+
+  - story: curso_test2
+    steps:
+      - intent: city
+      - action: utter_cursos_pasos
+      - action: action_get_steps_from_api
+      - action: utter_continuacion

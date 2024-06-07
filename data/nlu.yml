@@ -1,0 +1,189 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hola
+      - Buen dia
+      - que tal
+      - buena tarde
+      - mucho gusto
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: despedida
+    examples: |
+      - gracias 
+      - bye
+      - adios
+      - te agradezco 
+      - hasta pronto
+      - chao
+      - nos vemos
+      - goodbye
+      - no
+      - n
+      - NO
+      - No
+      - nope
+      - nop
+      - noup
+      - never
+      - para nada
+      - no lo creo
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: informar_procesos
+    examples: |
+      - oferta
+      - informacion
+      - pasos
+      - procedimiento
+      - prcedimientos
+      - procesos
+      - proceso
+      - proceso de
+      - indicaciones
+      - instrucciones
+      - inscribirme
+      - modalidad
+      - modalidades
+      - curso
+      - cursos
+      - talleres
+      - diplomados
+      - tipos
+      - tipo
+      - matricular
+      - inscripcion
+      - inscribir
+      - inscribirse
+      - inscribirme
+      - participar
+      - registrar
+      - registro
+      - registrarse
+      - registrarme
+      - solicitar
+      - mas cursos
+      - otros cursos
+      - me gustaria inscribirme
+      - realizar inscripcion
+      - matricularme
+      - me gustaria matricularme
+      - quiero ver en otra universidad
+      - lista de universidades
+      - en que universidad
+      - universidades
+
+  - intent: uabc
+    examples: |
+      - uabc
+      - UABC
+      - universidad autonoma de baja california
+      - Universidad Autonoma de Baja California
+      - Baja California
+      - baja california
+
+  - intent: uc
+    examples: |
+      - uc
+      - UC
+      - Universidad Continental
+      - universidad continental
+      - continental
+      - Continental
+
+  - intent: udg
+    examples: |
+      - udg
+      - UDG
+      - Universidad de Guadalajara
+      - universidad de guadalajara
+      - Guadalajara
+      - guadalajara
+
+  - intent: uned
+    examples: |
+      - uned
+      - UNED
+      - universidad nacional de educación a distancia
+      - Universidad Nacional de Educación a Distancia
+      - Educación a Distancia
+      - educación a distancia
+
+  - intent: unmp
+    examples: |
+      - unmp
+      - UNMP
+      - universidad nacional de mar del plata
+      - Universidad Nacional de Mar del Plata
+      - Mar del Plata
+      - mar del plata
+
+  - intent: unsam
+    examples: |
+      - unsam
+      - UNSAM
+      - universidad nacional de san martin
+      - Universidad Nacional de San Martin
+      - San Martin
+      - san martin
+
+  - intent: uncp
+    examples: |
+      - uncp
+      - UNCP
+      - Universidad Nacional del Centro del Perú
+      - universidad nacional del centro del perú
+      - Centro del Perú
+      - centro del perú
+      - Perú
+      - perú
+      - peru
+      - Peru
+
+  - intent: ul
+    examples: |
+      - ul
+      - UL
+      - Universidade de Lisboa
+      - universidade de lisboa
+      - Lisboa
+      - lisboa
+
+  - intent: unl
+    examples: |
+      - unl
+      - UNL
+      - Universidade Nova de Lisboa
+      - universidade nova de lisboa
+      - Nova de Lisboa
+      - nova de lisboa
+      - nova
+      - Nova
+
+  - intent: aped_curso
+    examples: |
+      - Accesibilidad para la educación digital
+      - accesibilidad para la Educación Digital
+      - Accesibilidad para la Educación Digital
+
+  - intent: city
+    examples: |
+      - city
+      - City
+      - CITY
