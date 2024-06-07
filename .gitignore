@@ -10,6 +10,5 @@ env/
 .env/
 
 # Rasa specific files
-models/
 *.db
 *.log

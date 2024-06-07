@@ -97,6 +97,12 @@ nlu:
       - Universidad Autonoma de Baja California
       - Baja California
       - baja california
+      - universidad de baja california
+      - universidad de Baja California
+      - univercidad de BC
+      - univercidad de bc
+      - BC
+      - bc
 
   - intent: uc
     examples: |
@@ -129,6 +135,8 @@ nlu:
     examples: |
       - unmp
       - UNMP
+      - UNMDP
+      - unmdp
       - universidad nacional de mar del plata
       - Universidad Nacional de Mar del Plata
       - Mar del Plata
@@ -151,6 +159,7 @@ nlu:
       - universidad nacional del centro del perú
       - Centro del Perú
       - centro del perú
+      - universidad de Peru
       - Perú
       - perú
       - peru
@@ -169,6 +178,8 @@ nlu:
     examples: |
       - unl
       - UNL
+      - UNOVA
+      - unova
       - Universidade Nova de Lisboa
       - universidade nova de lisboa
       - Nova de Lisboa

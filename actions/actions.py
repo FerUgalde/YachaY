@@ -129,7 +129,8 @@ class ActionGetCoursesFromAPI(Action):
             print(intent)
             obtain_id = requests.get('https://yachay2-ws.javali.pt/list-universities')
             data = obtain_id.json()
-            university_id = get_university_id(intent, data)
+            if intent in uni_list or intent in uni_list.values():
+                university_id = get_university_id(intent, data)
 
             print(university_id)
             
