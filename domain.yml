@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - greet
+  - despedida
+  - informar_procesos
+  - uabc
+  - uc
+  - udg
+  - uned
+  - unmp
+  - unsam
+  - uncp
+  - ul
+  - unl
+  - aped_curso
+  - city
+
+slots:
+  dynamic_info:
+    type: text
+    mappings:
+      - type: from_text
+        entity: dynamic_info
+
+  current_intent:
+    type: text
+    mappings: []
+
+responses:
+  utter_greet:
+    - text: "Hola! Cómo puedo ayudarte?"
+
+  utter_despedida:
+    - text: "¡Hasta luego! Siempre es un gusto ayudarte."
+
+  utter_continuacion:
+    - text: "¿Existe algo más en lo que pueda ayudarte?"
+
+  utter_informacion:
+    - text: "¿En que universidad te gustaría realizar tu curso? \n(Haz click en tu opción de preferencia)"
+
+  utter_cursos:
+    - text: "Los cursos que ofrece esta universidad son: \n(Haz click en tu opción de preferencia)"
+
+  utter_cursos_pasos:
+    - text: "Los pasos para la inscripcion son los siguientes:"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_get_universities_from_api
+  - action_get_courses_from_api
+  - action_get_steps_from_api
